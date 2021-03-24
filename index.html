@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/eac6c70ff4.js"></script>
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>App</title>
+  </head>
+  <body>
+    <!-- Navbar Toggler -->
+    <div class="navbar-toggler">
+      <div class="nav-btn"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <!-- Logo -->
+      <a href="#" class="logo"><img src="./images/logo.png" /></a>
+
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About.</a></li>
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link">Gallery.</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Sign up.</a></li>
+      </ul>
+
+      <button class="btn">Register</button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="title mega">Five Star Sports Cars</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, sequi
+          corporis! Id ullam, officiis facilis fugit fugiat ducimus. Pariatur
+          magnam exercitationem iste cumque voluptatibus similique.
+        </p>
+        <div>
+          <a href="#about" class="btn">Learn more</a>
+          <a href="#gallery" class="btn">Explore</a>
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="social-media">
+        <div class="line"></div>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <!-- Title -->
+      <h1 class="title mega">Gallery</h1>
+      <div class="border"></div>
+
+      <div class="cars-container">
+        <div class="car">
+          <div class="car-img car-img-1" data-aos="fade-right"></div>
+          <div class="content" data-aos="fade">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis ipsa, iste provident sequi modi vitae officiis
+              deleniti cumque temporibus sit, quam nemo est, nam asperiores!
+            </p>
+          </div>
+        </div>
+        <div class="car">
+          <div class="car-img car-img-2" data-aos="fade-left"></div>
+          <div class="content" data-aos="fade">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis ipsa, iste provident sequi modi vitae officiis
+              deleniti cumque temporibus sit, quam nemo est, nam asperiores!
+            </p>
+          </div>
+        </div>
+        <div class="car">
+          <div class="car-img car-img-3" data-aos="fade-right"></div>
+          <div class="content" data-aos="fade">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis ipsa, iste provident sequi modi vitae officiis
+              deleniti cumque temporibus sit, quam nemo est, nam asperiores!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about-container" data-aos="fade">
+        <div class="about__content">
+          <h1 class="title" data-aos="fade">About us</h1>
+          <p data-aos="fade">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            est vitae et, odio sint amet iure neque maxime, placeat quo illo
+            perferendis repellendus asperiores illum.
+          </p>
+          <div data-aos="fade" class="social-media">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-left">
+        <img src="./images/logo.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          ratione tempore sunt tenetur, facere eligendi.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+
+      <ul class="footer-right">
+        <li>
+          <h2>Product</h2>
+
+          <ul class="box">
+            <li><a href="#">Ferrari</a></li>
+            <li><a href="#">Camero</a></li>
+            <li><a href="#">Bugatti</a></li>
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">Volkswagon</a></li>
+            <li><a href="#">Porche</a></li>
+          </ul>
+        </li>
+
+        <li class="features">
+          <h2>Useful Links</h2>
+
+          <ul class="box">
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </ul>
+        </li>
+        <li class="address">
+          <h2>Address</h2>
+
+          <ul class="box">
+            <li><a href="#">123, West Ave</a></li>
+            <li><a href="#">DA15 9PS, Sidcup</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">United Kingdom</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="footer-bottom">
+        <p>All Rights reserved by &copy; Five Star Sports Cars</p>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
